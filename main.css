@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto-header{
+    position: relative;
+    text-align: center;
+    background-color:rgba(53, 53, 164, 0.479) ;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+form h2{
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: medium;
+    margin-top: 15px;
+}
+
+form {
+    margin: 0 auto;
+}
+input,
+button{
+    padding: 8px;
+}
+
+
+
+
+button{
+    background-color: #1b1a2d;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#fff;
+    cursor: pointer;
+}
+
+ul {
+text-align: center;
+}
+
+ul li{
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 230px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.novaTarefa {
+    display: flex;
+    text-align: center;
+}
+
+.teste-riscado{
+    text-decoration: line-through;
+    color: rgba(66, 65, 65, 0.644);
+}
